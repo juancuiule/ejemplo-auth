@@ -1,32 +1,27 @@
-const { sign } = require('jsonwebtoken');
+const { sign } = require("jsonwebtoken");
 
 // Create tokens
-// ----------------------------------
-const createAccessToken = userId => {
+const createAccessToken = (userId) => {
   return sign({ userId }, process.env.ACCESS_TOKEN_SECRET, {
-    expiresIn: '15m',
+    expiresIn: "15m",
   });
 };
 
-const createRefreshToken = userId => {
+const createRefreshToken = (userId) => {
   return sign({ userId }, process.env.REFRESH_TOKEN_SECRET, {
-    expiresIn: '7d',
+    expiresIn: "7d",
   });
 };
 
 // Send tokens
-// ----------------------------------
-const sendAccessToken = (res, req, accesstoken) => {
-  res.send({
-    accesstoken,
-    email: req.body.email,
-  });
+const sendAccessToken = (res, req, accessToken) => {
+  res.send({ accessToken });
 };
 
 const sendRefreshToken = (res, token) => {
-  res.cookie('refreshtoken', token, {
+  res.cookie("refreshtoken", token, {
     httpOnly: true,
-    path: '/refresh_token',
+    path: "/api/refresh_token",
   });
 };
 
@@ -34,5 +29,5 @@ module.exports = {
   createAccessToken,
   createRefreshToken,
   sendAccessToken,
-  sendRefreshToken
+  sendRefreshToken,
 };

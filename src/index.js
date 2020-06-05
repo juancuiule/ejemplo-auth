@@ -2,22 +2,25 @@ require("dotenv/config");
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const authController = require("./controllers/auth");
-const cors = require('cors');
+// const cors = require('cors');
 
 const app = express();
 
-app.use(
-  cors({
-    origin: 'http://localhost:3000',
-    credentials: true,
-  }),
-);
+// app.use(
+//   cors({
+//     origin: 'http://localhost:3000', // habilitar pedidos desde el front
+//     credentials: true,
+//   }),
+// );
 
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/auth", express.static("public/auth"));
+
+// no es necesario que el back haga esto, es solo para probar localmente
+// y poder simular los /experimento-*
 app.use("/experimento-a", express.static("public/experimento-a"));
 app.use("/experimento-b", express.static("public/experimento-b"));
 

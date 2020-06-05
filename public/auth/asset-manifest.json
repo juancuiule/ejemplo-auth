@@ -1,0 +1,32 @@
+{
+  "files": {
+    "Dashboard.js": "/auth/static/js/Dashboard.6863082e.chunk.js",
+    "Dashboard.js.map": "/auth/static/js/Dashboard.6863082e.chunk.js.map",
+    "Login.js": "/auth/static/js/Login.2eab342a.chunk.js",
+    "Login.js.map": "/auth/static/js/Login.2eab342a.chunk.js.map",
+    "NewPassword.js": "/auth/static/js/NewPassword.fce720ac.chunk.js",
+    "NewPassword.js.map": "/auth/static/js/NewPassword.fce720ac.chunk.js.map",
+    "ResetPassword.js": "/auth/static/js/ResetPassword.210e8055.chunk.js",
+    "ResetPassword.js.map": "/auth/static/js/ResetPassword.210e8055.chunk.js.map",
+    "Signup.js": "/auth/static/js/Signup.1f46923f.chunk.js",
+    "Signup.js.map": "/auth/static/js/Signup.1f46923f.chunk.js.map",
+    "main.css": "/auth/static/css/main.dbfbe285.chunk.css",
+    "main.js": "/auth/static/js/main.82a73845.chunk.js",
+    "main.js.map": "/auth/static/js/main.82a73845.chunk.js.map",
+    "runtime-main.js": "/auth/static/js/runtime-main.c430c632.js",
+    "runtime-main.js.map": "/auth/static/js/runtime-main.c430c632.js.map",
+    "static/js/7.d06bced4.chunk.js": "/auth/static/js/7.d06bced4.chunk.js",
+    "static/js/7.d06bced4.chunk.js.map": "/auth/static/js/7.d06bced4.chunk.js.map",
+    "index.html": "/auth/index.html",
+    "precache-manifest.d8ded8c5384b7427e7d0e2d4b1693c9a.js": "/auth/precache-manifest.d8ded8c5384b7427e7d0e2d4b1693c9a.js",
+    "service-worker.js": "/auth/service-worker.js",
+    "static/css/main.dbfbe285.chunk.css.map": "/auth/static/css/main.dbfbe285.chunk.css.map",
+    "static/js/7.d06bced4.chunk.js.LICENSE.txt": "/auth/static/js/7.d06bced4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c430c632.js",
+    "static/js/7.d06bced4.chunk.js",
+    "static/css/main.dbfbe285.chunk.css",
+    "static/js/main.82a73845.chunk.js"
+  ]
+}

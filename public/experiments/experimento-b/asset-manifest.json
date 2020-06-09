@@ -1,0 +1,25 @@
+{
+  "files": {
+    "Pregunta.js": "/experimento-b/static/js/Pregunta.98157745.chunk.js",
+    "Pregunta.js.map": "/experimento-b/static/js/Pregunta.98157745.chunk.js.map",
+    "Terms.js": "/experimento-b/static/js/Terms.1e360e0b.chunk.js",
+    "Terms.js.map": "/experimento-b/static/js/Terms.1e360e0b.chunk.js.map",
+    "Thanks.js": "/experimento-b/static/js/Thanks.c0f18b4e.chunk.js",
+    "Thanks.js.map": "/experimento-b/static/js/Thanks.c0f18b4e.chunk.js.map",
+    "main.js": "/experimento-b/static/js/main.26d1ce36.chunk.js",
+    "main.js.map": "/experimento-b/static/js/main.26d1ce36.chunk.js.map",
+    "runtime-main.js": "/experimento-b/static/js/runtime-main.74fee5a1.js",
+    "runtime-main.js.map": "/experimento-b/static/js/runtime-main.74fee5a1.js.map",
+    "static/js/5.32ec19f9.chunk.js": "/experimento-b/static/js/5.32ec19f9.chunk.js",
+    "static/js/5.32ec19f9.chunk.js.map": "/experimento-b/static/js/5.32ec19f9.chunk.js.map",
+    "index.html": "/experimento-b/index.html",
+    "precache-manifest.a4a5f7297187032016b16d40ac922c26.js": "/experimento-b/precache-manifest.a4a5f7297187032016b16d40ac922c26.js",
+    "service-worker.js": "/experimento-b/service-worker.js",
+    "static/js/5.32ec19f9.chunk.js.LICENSE.txt": "/experimento-b/static/js/5.32ec19f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74fee5a1.js",
+    "static/js/5.32ec19f9.chunk.js",
+    "static/js/main.26d1ce36.chunk.js"
+  ]
+}

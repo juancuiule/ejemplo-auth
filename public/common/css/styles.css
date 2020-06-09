@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Gotham;
+  src: url('https://s3.us-south.cloud-object-storage.appdomain.cloud/eglcinvestigacion-dev/common/fonts/Gotham-Book.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('https://s3.us-south.cloud-object-storage.appdomain.cloud/eglcinvestigacion-dev/common/fonts/Gotham-Medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('https://s3.us-south.cloud-object-storage.appdomain.cloud/eglcinvestigacion-dev/common/fonts/Gotham-Bold.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('https://s3.us-south.cloud-object-storage.appdomain.cloud/eglcinvestigacion-dev/common/fonts/Gotham-Black.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: neuton;
+  src: url('https://s3.us-south.cloud-object-storage.appdomain.cloud/eglcinvestigacion-dev/common/fonts/neuton.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+
+  --primary: #68bbe8;
+  --primary-dark: #2782cc;
+
+  --secondary: #14273c;
+  --accent: #ee5d52; /* #ef5c4e */
+  --gray-light: #f6f6f6;
+  --gray: #d8d8d8;
+  --gray-mid-dark: #c6c6c6;
+  --gray-dark: #999999;
+  --cool-gray: #8c9baa;
+
+  --green: #73e5a1;
+
+  /* --facebook: #3D5A96; */
+  --facebook: #4267b2;
+
+  --google: #4284f4;
+  --twitter: #5ecff0;
+  --whatsapp: #08c65b;
+}
+
+#root {
+  overflow-x: hidden;
+  min-height: 100vh;
+}

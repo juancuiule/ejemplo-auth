@@ -6,12 +6,15 @@ const authController = require("./controllers/auth");
 
 const app = express();
 
-// app.use(
-//   cors({
-//     origin: 'http://localhost:3000', // habilitar pedidos desde el front
-//     credentials: true,
-//   }),
-// );
+app.use(
+  cors({
+    origin: [
+      'http://localhost:3000',
+      'https://auth-gato.netlify.com'
+    ], // habilitar pedidos desde el front
+    credentials: true,
+  }),
+);
 
 app.use(cookieParser());
 app.use(express.json());
